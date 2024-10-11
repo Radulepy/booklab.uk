@@ -9,22 +9,26 @@
     <title>BookLab Prelaunch</title>
 
     <!-- Meta Description -->
-    <meta name="description" content="BookLab offers personalized and therapeutic fairy tales to help children with modern challenges such as anxiety, depression, and more.">
-    
+    <meta name="description"
+        content="BookLab offers personalized and therapeutic fairy tales to help children with modern challenges such as anxiety, depression, and more.">
+
     <!-- Keywords -->
-    <meta name="keywords" content="BookLab, personalized books, therapeutic stories, children, anxiety, depression, education, custom books">
-    
+    <meta name="keywords"
+        content="BookLab, personalized books, therapeutic stories, children, anxiety, depression, education, custom books">
+
     <!-- Open Graph (Facebook) Meta Tags -->
     <meta property="og:title" content="BookLab - We Shape the Future of Education">
-    <meta property="og:description" content="Therapeutic fairy tales personalized for children’s modern needs, such as anxiety and depression.">
+    <meta property="og:description"
+        content="Therapeutic fairy tales personalized for children’s modern needs, such as anxiety and depression.">
     <meta property="og:image" content="https://example.com/img/booklab_preview.png">
     <meta property="og:url" content="https://booklab.com">
     <meta property="og:type" content="website">
-    
+
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="BookLab - We Shape the Future of Education">
-    <meta name="twitter:description" content="Therapeutic fairy tales personalized for children’s modern needs—helping with anxiety, depression, and more.">
+    <meta name="twitter:description"
+        content="Therapeutic fairy tales personalized for children’s modern needs—helping with anxiety, depression, and more.">
     <meta name="twitter:image" content="https://example.com/img/booklab_preview.png">
 
     <link rel="stylesheet" href="dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
@@ -75,6 +79,18 @@
             padding: 10px 0;
             background-color: #f8f9fa;
         }
+
+        .social-icons a {
+            text-decoration: none;
+            /* Remove underline from links */
+            display: inline-block;
+            /* Make sure icons align properly */
+        }
+
+        .social-icons img {
+            vertical-align: middle;
+            /* Align icons properly */
+        }
     </style>
 </head>
 
@@ -84,7 +100,7 @@
         <div class="hero">
 
             <img src="img/booklab_logo.png" alt="BookLab Image" class="img-fluid">
-            <h1>We Shape the Future of Education</h1>
+            <h1 class="mb-4">We Shape the Future of Education</h1>
             <p>Therapeutic fairy tales personalized for children’s modern needs—helping with anxiety, depression, and
                 more.</p>
             <p>Every child is different, so why should they read the same books?</p>
@@ -95,6 +111,22 @@
         </div>
     </div>
 
+    <!-- Social Media Icons -->
+    <div class="social-icons mb-5 text-center">
+        <a href="https://instagram.com/booklab.ro" target="_blank" class="me-2">
+            <img src="img/ig_logo.png" alt="Instagram" style="width: 30px;">
+        </a>
+        <a href="https://www.facebook.com/BookLab.ro/" target="_blank" class="me-2">
+            <img src="img/facebook_logo.png" alt="Facebook" style="width: 30px;">
+        </a>
+        <a href="https://www.linkedin.com/company/82623711" target="_blank" class="me-2">
+            <img src="img/linked_logo.png" alt="LinkedIn" style="width: 30px;">
+        </a>
+        <a href="https://www.booklab.ro/en" target="_blank">
+            <img src="img/about_logo.png" alt="About BookLab" style="width: 30px;">
+        </a>
+    </div>
+    
     <footer>
         <p>&copy; 2024 BookLab. All rights reserved.</p>
     </footer>
