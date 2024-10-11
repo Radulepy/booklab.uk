@@ -11,11 +11,13 @@
             height: 100%;
             margin: 0;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #f8f9fa;
+            flex-direction: column;
         }
-        .hero {
+        .content {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             padding: 20px;
         }
@@ -38,28 +40,32 @@
             margin: 0 auto;
         }
         footer {
-            margin-top: 30px;
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f8f9fa;
         }
     </style>
 </head>
 <body>
 
-    <div class="container hero">
-        <img src="https://via.placeholder.com/600x400" alt="BookLab Image" class="img-fluid">
-        <h1>We Shape the Future of Education</h1>
-        <p>Therapeutic fairy tales personalized for children’s modern needs—helping with anxiety, depression, and more.</p>
+    <div class="container content">
+        <div class="hero">
+            <img src="img/booklab_logo.png" alt="BookLab Image" class="img-fluid">
+            <h1>We Shape the Future of Education</h1>
+            <p>Therapeutic fairy tales personalized for children’s modern needs—helping with anxiety, depression, and more.</p>
         
-        <form class="email-input">
-            <div class="input-group mb-3">
-                <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email">
-                <button class="btn btn-primary" type="submit">Sign Up</button>
-            </div>
-        </form>
-
-        <footer>
-            <p>&copy; 2024 BookLab. All rights reserved.</p>
-        </footer>
+            <form class="email-input">
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email">
+                    <button class="btn btn-primary" type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
     </div>
+
+    <footer>
+        <p>&copy; 2024 BookLab. All rights reserved.</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
